@@ -74,7 +74,7 @@ public class Main {
         try {
             String param;
             while ((param = br.readLine()) != null) {
-                String[] param_entry = param.split(":");
+                String[] param_entry = param.split("=");
                 if (param_entry.length != 2) {
                     throw new WrongFileFormat();
                 }
