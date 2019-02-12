@@ -12,6 +12,6 @@ The format is the following:
   DB_NAME : \<database name\>  
   DB_USER : \<database user\>  
   DB_PASSWD : \<database user password\>  
-  PORT: <listening port>  
+  PORT: \<listening port\>  
     
 Is included a Test class that acts like a client (you need to set the same port and the server ip/domain  
